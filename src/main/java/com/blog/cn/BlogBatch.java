@@ -6,8 +6,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
 /**
  * Created by zhangsisi on 2018/6/2.
  */
@@ -19,6 +17,7 @@ public class BlogBatch {
 	public String test(){
 		String test = "jklsdfghj";
 		System.out.println("test------------"+test);
+		System.out.println("git test");
 		return test;
 	}
 }
